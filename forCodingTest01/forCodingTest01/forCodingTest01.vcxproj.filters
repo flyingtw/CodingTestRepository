@@ -13,16 +13,25 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="소스 파일\kakao_past">
+      <UniqueIdentifier>{9df3f9a0-24a2-46e0-b081-f450d42ce142}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\bakjun">
+      <UniqueIdentifier>{97ad10a1-ea55-40be-a909-79ca6b9e5065}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="main.cpp">
-      <Filter>소스 파일</Filter>
+    <ClCompile Include="19_candidate.cpp">
+      <Filter>소스 파일\kakao_past</Filter>
     </ClCompile>
-    <ClCompile Include="test02.cpp">
-      <Filter>소스 파일</Filter>
+    <ClCompile Include="20_lock.cpp">
+      <Filter>소스 파일\kakao_past</Filter>
     </ClCompile>
-    <ClCompile Include="test03.cpp">
-      <Filter>소스 파일</Filter>
+    <ClCompile Include="19_winter_banned.cpp">
+      <Filter>소스 파일\kakao_past</Filter>
+    </ClCompile>
+    <ClCompile Include="2455(simul-train).cpp">
+      <Filter>소스 파일\bakjun</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
