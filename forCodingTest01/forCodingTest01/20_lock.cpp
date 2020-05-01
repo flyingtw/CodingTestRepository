@@ -84,20 +84,12 @@ bool compare2(vector<vector<int>> key2, vector<vector<int>> lock2, int lock_i, i
 bool solution(vector<vector<int>> key, vector<vector<int>> lock) {
 	bool answer = false;
 
-	//Print(key);
-	//Print(lock);
+	
+	vector<vector<int>> key1=rotate(key);
+	vector<vector<int>> key2 = rotate(key1);
+	vector<vector<int>> key3 = rotate(key2);
+	
 
-	/*
-	//4번 회전
-	for (int i = 0; i < 4; i++) {
-		key = rotate(key);
-		if (compare(key, lock)) {
-			answer = true;
-			break;
-		}
-	}
-	*/
-	Print(lock);
 	
 	// lock 배열 key 범위만큼 확장하기
 	int key_size = key.size();
@@ -110,6 +102,21 @@ bool solution(vector<vector<int>> key, vector<vector<int>> lock) {
 		}
 	}
 	Print(new_lock);
+	/* =>  이부분 하나하나 가면서 비교하는게 안됨
+	for (int i = 0; i < new_lock.size()-1; i++) {
+		for (int j = 0; j < new_lock.size()-1; i++) {
+			for (int a = 0; a < key.size(); a++) {
+				for (int b = 0; b < key.size(); b++) {
+					if(key[a][b]==1 && )
+				}
+			}
+		}
+	}
+	*/
+
+
+
+
 
 	
 	return answer;
