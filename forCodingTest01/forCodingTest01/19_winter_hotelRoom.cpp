@@ -60,28 +60,6 @@ vector<long long> solution(long long k, vector<long long> room_number) {
 
 
 int main() {
-
     solution(k, room_number);
-    
-    /*
-    vector<long long >test = {0, 2,3,0,4,5,6,0,9,0 };
-    for (int i = 0; i < test.size(); i++) {
-        cout << test[i] << " ";
-    }
-    int first = 0;
-    int second = 0;
-    
-
-
-
-    cout << endl;
-    for (int i = 0; i < test.size(); i++) {
-        cout << test[i] << " ";
-    }
-
-
-    */
-
-
     return 0;
 }
