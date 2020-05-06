@@ -73,7 +73,11 @@ int solution(vector<int> stones, int k) {
 */
 
 
+
 //2분탐색으로 푸는것이여따
+// 1~stones의 원소의 최대값중 
+// 어떤 수를 전체 원소에서 뺏을때 연속으로 k 번의 0이 안나오는지 
+// 그 최대값을 구하는 문제였다. 
 bool binary_search(int& mid, int& k, vector<int>& v) {
     int count = 0;
 
@@ -92,9 +96,9 @@ bool binary_search(int& mid, int& k, vector<int>& v) {
 
 int solution(vector<int> stones, int k) {
     
-
     int left = 1;
     int right = *max_element(stones.begin(), stones.end());
+    cout << right << endl;
     
     while (left <= right) {
         int mid = (left + right) / 2;
