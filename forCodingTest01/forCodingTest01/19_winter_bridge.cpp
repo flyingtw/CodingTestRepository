@@ -16,7 +16,7 @@ using namespace std;
 
 vector<int> stones = { 2, 4, 5, 3, 2, 1, 4, 2, 5, 1 };
 int k = 3;
-/*
+
 int solution(vector<int> stones, int k) {
     int answer = 0;
 
@@ -56,7 +56,7 @@ int solution(vector<int> stones, int k) {
         cout << "-----³¡---" << endl;
     }
 
-    /*
+    
     for (int i = 0; i < stones.size(); i++) {
         cout << stones[i] << " ";
     }

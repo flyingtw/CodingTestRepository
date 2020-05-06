@@ -42,5 +42,8 @@
     <ClCompile Include="19_winter_bridge.cpp">
       <Filter>소스 파일\kakao_past</Filter>
     </ClCompile>
+    <ClCompile Include="15926(현욱이괄호왕).cpp">
+      <Filter>소스 파일\bakjun</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

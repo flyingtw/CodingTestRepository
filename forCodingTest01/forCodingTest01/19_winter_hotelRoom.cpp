@@ -8,7 +8,7 @@ using namespace std;
 //2.고객은 투숙하기 원하는 방 번호를 제출합니다.
 //3.고객이 원하는 방이 비어 있다면 즉시 배정합니다.
 //4.고객이 원하는 방이 이미 배정되어 있으면 원하는 방보다 번호가 크면서 
-//  비어있는 방 중 가장 번호가 작은 방을 배정합니다.\
+//  비어있는 방 중 가장 번호가 작은 방을 배정합니다.
 
 
 long long k = 10;
@@ -53,8 +53,6 @@ vector<long long> solution(long long k, vector<long long> room_number) {
         cout << answer[i] << " ";
     }
     
-   
-
     return answer;
 }
 
