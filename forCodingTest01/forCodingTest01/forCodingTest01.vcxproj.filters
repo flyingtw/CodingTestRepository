@@ -36,5 +36,11 @@
     <ClCompile Include="18_song.cpp">
       <Filter>소스 파일\kakao_past</Filter>
     </ClCompile>
+    <ClCompile Include="19_winter_hotelRoom.cpp">
+      <Filter>소스 파일\kakao_past</Filter>
+    </ClCompile>
+    <ClCompile Include="19_winter_bridge.cpp">
+      <Filter>소스 파일\kakao_past</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
