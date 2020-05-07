@@ -1,21 +1,21 @@
 #include <iostream>
-#include <string>
 #include <vector>
-#include <sstream>
-
+#include <string>
 
 using namespace std;
 
 int main() {
+	cin.tie(NULL);
+	cout.tie(NULL);
+	ios::sync_with_stdio(false);
 
-	string imsi = "abc";
-	char c = imsi[0];
-	char cc = imsi[1];
-	string s;
-	s.push_back(c);
-	s.push_back(cc);
-	cout << s << endl;
-	
+	string a = "01234567";
+	int first = 3;
+	int second = 6;
+	a.erase(a.begin() + second);
+	a.erase(a.begin() + first);
+	cout << a << endl;
+
 
 	return 0;
 }

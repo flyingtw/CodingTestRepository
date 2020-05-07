@@ -51,5 +51,11 @@
     <ClCompile Include="test.cpp">
       <Filter>소스 파일\bakjun</Filter>
     </ClCompile>
+    <ClCompile Include="2800(괄호제거).cpp">
+      <Filter>소스 파일\bakjun</Filter>
+    </ClCompile>
+    <ClCompile Include="1475(방번호).cpp">
+      <Filter>소스 파일\bakjun</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
