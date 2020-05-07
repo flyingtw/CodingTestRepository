@@ -45,5 +45,11 @@
     <ClCompile Include="15926(현욱이괄호왕).cpp">
       <Filter>소스 파일\bakjun</Filter>
     </ClCompile>
+    <ClCompile Include="1972(놀라운문자열).cpp">
+      <Filter>소스 파일\bakjun</Filter>
+    </ClCompile>
+    <ClCompile Include="test.cpp">
+      <Filter>소스 파일\bakjun</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
