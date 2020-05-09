@@ -1,6 +1,8 @@
 #include <iostream>
 #include <vector>
 #include <string>
+#include <stack>
+
 
 using namespace std;
 
@@ -9,12 +11,9 @@ int main() {
 	cout.tie(NULL);
 	ios::sync_with_stdio(false);
 
-	string a = "01234567";
-	int first = 3;
-	int second = 6;
-	a.erase(a.begin() + second);
-	a.erase(a.begin() + first);
-	cout << a << endl;
+	stack<int>a;
+	a.push(1);
+	cout << a.top() << endl;
 
 
 	return 0;
