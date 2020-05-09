@@ -19,6 +19,12 @@
     <Filter Include="소스 파일\bakjun">
       <UniqueIdentifier>{97ad10a1-ea55-40be-a909-79ca6b9e5065}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\programers">
+      <UniqueIdentifier>{40fd5840-a8c6-4228-a2cf-72112518204c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\2020_kakao_internship">
+      <UniqueIdentifier>{4abac3d1-0956-4c9d-9ae5-1ec46516d512}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="19_candidate.cpp">
@@ -62,6 +68,27 @@
     </ClCompile>
     <ClCompile Include="2789(유학금지).cpp">
       <Filter>소스 파일\bakjun</Filter>
+    </ClCompile>
+    <ClCompile Include="9996%28한국그리움서버접속%29-미완.cpp">
+      <Filter>소스 파일\bakjun</Filter>
+    </ClCompile>
+    <ClCompile Include="큰수만들기.cpp">
+      <Filter>소스 파일\programers</Filter>
+    </ClCompile>
+    <ClCompile Include="01.cpp">
+      <Filter>소스 파일\2020_kakao_internship</Filter>
+    </ClCompile>
+    <ClCompile Include="02.cpp">
+      <Filter>소스 파일\2020_kakao_internship</Filter>
+    </ClCompile>
+    <ClCompile Include="03.cpp">
+      <Filter>소스 파일\2020_kakao_internship</Filter>
+    </ClCompile>
+    <ClCompile Include="04.cpp">
+      <Filter>소스 파일\2020_kakao_internship</Filter>
+    </ClCompile>
+    <ClCompile Include="05.cpp">
+      <Filter>소스 파일\2020_kakao_internship</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
