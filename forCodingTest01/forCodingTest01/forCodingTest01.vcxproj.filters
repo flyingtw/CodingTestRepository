@@ -25,6 +25,9 @@
     <Filter Include="소스 파일\2020_kakao_internship">
       <UniqueIdentifier>{4abac3d1-0956-4c9d-9ae5-1ec46516d512}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\bakjun\문자열">
+      <UniqueIdentifier>{7b746333-3537-4aa3-bd1a-ee7a354f6cb4}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="19_candidate.cpp">
@@ -63,9 +66,6 @@
     <ClCompile Include="10808(알파벳갯수).cpp">
       <Filter>소스 파일\bakjun</Filter>
     </ClCompile>
-    <ClCompile Include="1475%28방번호%29-미완.cpp">
-      <Filter>소스 파일\bakjun</Filter>
-    </ClCompile>
     <ClCompile Include="2789(유학금지).cpp">
       <Filter>소스 파일\bakjun</Filter>
     </ClCompile>
@@ -89,6 +89,9 @@
     </ClCompile>
     <ClCompile Include="05.cpp">
       <Filter>소스 파일\2020_kakao_internship</Filter>
+    </ClCompile>
+    <ClCompile Include="1475(방번호).cpp">
+      <Filter>소스 파일\bakjun\문자열</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
