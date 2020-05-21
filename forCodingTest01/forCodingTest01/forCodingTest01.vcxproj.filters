@@ -28,6 +28,15 @@
     <Filter Include="소스 파일\bakjun\문자열">
       <UniqueIdentifier>{7b746333-3537-4aa3-bd1a-ee7a354f6cb4}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\bakjun\정렬">
+      <UniqueIdentifier>{42a6b99a-4417-4cfd-9398-01367876ebf8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\bakjun\이분탐색">
+      <UniqueIdentifier>{cb1a1ca4-df28-403e-9328-4660963643fc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\bakjun\슬라이딩윈도우">
+      <UniqueIdentifier>{a22783ca-46fd-4827-a484-81f6e391a9f9}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="19_candidate.cpp">
@@ -92,6 +101,21 @@
     </ClCompile>
     <ClCompile Include="1475(방번호).cpp">
       <Filter>소스 파일\bakjun\문자열</Filter>
+    </ClCompile>
+    <ClCompile Include="10989(수정렬하기3).cpp">
+      <Filter>소스 파일\bakjun\정렬</Filter>
+    </ClCompile>
+    <ClCompile Include="2512(예산).cpp">
+      <Filter>소스 파일\bakjun\이분탐색</Filter>
+    </ClCompile>
+    <ClCompile Include="2110(공유기).cpp">
+      <Filter>소스 파일\bakjun\이분탐색</Filter>
+    </ClCompile>
+    <ClCompile Include="1654(랜선자르기).cpp">
+      <Filter>소스 파일\bakjun\이분탐색</Filter>
+    </ClCompile>
+    <ClCompile Include="11003(최솟값찾기).cpp">
+      <Filter>소스 파일\bakjun\슬라이딩윈도우</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
