@@ -117,5 +117,11 @@
     <ClCompile Include="11003(최솟값찾기).cpp">
       <Filter>소스 파일\bakjun\슬라이딩윈도우</Filter>
     </ClCompile>
+    <ClCompile Include="사각형_좌표구하기(비트연산).cpp">
+      <Filter>소스 파일\programers</Filter>
+    </ClCompile>
+    <ClCompile Include="다음큰자연수%282진수처리%29.cpp">
+      <Filter>소스 파일\programers</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
