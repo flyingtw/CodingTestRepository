@@ -37,6 +37,9 @@
     <Filter Include="소스 파일\bakjun\슬라이딩윈도우">
       <UniqueIdentifier>{a22783ca-46fd-4827-a484-81f6e391a9f9}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\midas_codingTest">
+      <UniqueIdentifier>{f2465eb8-44cd-4c40-8c10-9587ef57dc65}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="19_candidate.cpp">
@@ -122,6 +125,15 @@
     </ClCompile>
     <ClCompile Include="다음큰자연수%282진수처리%29.cpp">
       <Filter>소스 파일\programers</Filter>
+    </ClCompile>
+    <ClCompile Include="0523_02.cpp">
+      <Filter>소스 파일\midas_codingTest</Filter>
+    </ClCompile>
+    <ClCompile Include="0523_01.cpp">
+      <Filter>소스 파일\midas_codingTest</Filter>
+    </ClCompile>
+    <ClCompile Include="0523_03.cpp">
+      <Filter>소스 파일\midas_codingTest</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
