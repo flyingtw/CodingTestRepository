@@ -117,5 +117,20 @@
     <ClCompile Include="11003(최솟값찾기).cpp">
       <Filter>소스 파일\bakjun\슬라이딩윈도우</Filter>
     </ClCompile>
+    <ClCompile Include="skill2%28최소값최대값%29.cpp">
+      <Filter>소스 파일\programers</Filter>
+    </ClCompile>
+    <ClCompile Include="skill2(iron_suite).cpp">
+      <Filter>소스 파일\programers</Filter>
+    </ClCompile>
+    <ClCompile Include="skill2(baseball_game).cpp">
+      <Filter>소스 파일\programers</Filter>
+    </ClCompile>
+    <ClCompile Include="skill2(n개_최소공배수)cpp.cpp">
+      <Filter>소스 파일\programers</Filter>
+    </ClCompile>
+    <ClCompile Include="skill2(block).cpp">
+      <Filter>소스 파일\programers</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
