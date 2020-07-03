@@ -150,7 +150,13 @@
     <ClCompile Include="skill2%28최소값최대값%29.cpp">
       <Filter>소스 파일\programers</Filter>
     </ClCompile>
-    <ClCompile Include="test01.cpp">
+    <ClCompile Include="skill2%28프린터%29.cpp">
+      <Filter>소스 파일\programers</Filter>
+    </ClCompile>
+    <ClCompile Include="skill2%28스킬트리%29-미완성.cpp">
+      <Filter>소스 파일\programers</Filter>
+    </ClCompile>
+    <ClCompile Include="skill2(기능개발).cpp">
       <Filter>소스 파일\programers</Filter>
     </ClCompile>
   </ItemGroup>
