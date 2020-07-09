@@ -40,6 +40,9 @@
     <Filter Include="소스 파일\midas_codingTest">
       <UniqueIdentifier>{f2465eb8-44cd-4c40-8c10-9587ef57dc65}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\bakjun\BFS">
+      <UniqueIdentifier>{c36bd06d-70e6-4d5d-8db4-fb769b09dc31}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="19_candidate.cpp">
@@ -167,6 +170,21 @@
     </ClCompile>
     <ClCompile Include="skill4(게임맵최단거리).cpp">
       <Filter>소스 파일\programers</Filter>
+    </ClCompile>
+    <ClCompile Include="2178(미로탐색).cpp">
+      <Filter>소스 파일\bakjun\BFS</Filter>
+    </ClCompile>
+    <ClCompile Include="2667(단지번호붙이기).cpp">
+      <Filter>소스 파일\bakjun\BFS</Filter>
+    </ClCompile>
+    <ClCompile Include="5014(스타트링크).cpp">
+      <Filter>소스 파일\bakjun\BFS</Filter>
+    </ClCompile>
+    <ClCompile Include="14502(연구소).cpp">
+      <Filter>소스 파일\bakjun\BFS</Filter>
+    </ClCompile>
+    <ClCompile Include="1012(유기농배추).cpp">
+      <Filter>소스 파일\bakjun\BFS</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
