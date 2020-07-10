@@ -43,6 +43,9 @@
     <Filter Include="소스 파일\bakjun\BFS">
       <UniqueIdentifier>{c36bd06d-70e6-4d5d-8db4-fb769b09dc31}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\bakjun\브루트포스">
+      <UniqueIdentifier>{05a66d1a-8b25-4be1-b58f-52a89f6a8ecc}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="19_candidate.cpp">
@@ -185,6 +188,18 @@
     </ClCompile>
     <ClCompile Include="1012(유기농배추).cpp">
       <Filter>소스 파일\bakjun\BFS</Filter>
+    </ClCompile>
+    <ClCompile Include="2798(블랙잭).cpp">
+      <Filter>소스 파일\bakjun\브루트포스</Filter>
+    </ClCompile>
+    <ClCompile Include="7568(덩치).cpp">
+      <Filter>소스 파일\bakjun\브루트포스</Filter>
+    </ClCompile>
+    <ClCompile Include="1018(체스판다시칠하기).cpp">
+      <Filter>소스 파일\bakjun\브루트포스</Filter>
+    </ClCompile>
+    <ClCompile Include="1436((영화감독숌).cpp">
+      <Filter>소스 파일\bakjun\브루트포스</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
