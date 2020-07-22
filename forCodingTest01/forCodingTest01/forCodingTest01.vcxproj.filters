@@ -46,6 +46,9 @@
     <Filter Include="소스 파일\bakjun\브루트포스">
       <UniqueIdentifier>{05a66d1a-8b25-4be1-b58f-52a89f6a8ecc}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\cote-study">
+      <UniqueIdentifier>{be190c40-ed23-49a4-841f-2f2f0cdebd13}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="19_candidate.cpp">
@@ -200,6 +203,12 @@
     </ClCompile>
     <ClCompile Include="1436((영화감독숌).cpp">
       <Filter>소스 파일\bakjun\브루트포스</Filter>
+    </ClCompile>
+    <ClCompile Include="bak_2309.cpp">
+      <Filter>소스 파일\cote-study</Filter>
+    </ClCompile>
+    <ClCompile Include="bak_14502.cpp">
+      <Filter>소스 파일\cote-study</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
