@@ -1,27 +1,21 @@
-#include <iostream>
-#include <vector>
-#include <string>
+#include<bits/stdc++.h>
+
 
 #define endl "\n"
 
 using namespace std;
 
-
-
-
+void init() {
+	cin.tie(NULL);
+	cout.tie(NULL);
+	ios::sync_with_stdio(false);
+}
 
 
 int main() {
-    string a = "heloloo";
-    if (a.find("o") != -1) {
-        cout << "ok" << endl;
-        cout << a.find("o") << endl;
-        cout << a.find("oo") << endl;
-    }
-    else {
-        cout << "nope" << endl;
-    }
+	init();
+	cout << "Hello world!" << endl;
 
 
-    return 0;
+	return 0;
 }
