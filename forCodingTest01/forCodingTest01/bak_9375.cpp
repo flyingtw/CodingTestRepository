@@ -6,7 +6,7 @@
 using namespace std;
 
 int tc, n;
-
+string s1 = "";
 
 
 void init() {
@@ -30,15 +30,15 @@ int main() {
 	init();
 	cin >> tc;
 	for (int i = 0; i < tc; i++) {
+		cout << "i :" << i << endl;
 		cin >> n;
-		cout << "------" << endl;
+		cin.ignore();
 		for (int j = 0; j < n; j++) {
-			string s1; cin >> s1;// string 이 아니라 getline 으로 한줄 전체를 받아야함(여기부터 시작)
+			cout << "j :" << j << endl;
+			getline(cin, s1);
 			seperate(s1);
-			
-			
+			cout << "------" << endl;
 		}
-		cout << endl;
 	}
 	//char a[] = "sunglasses eyewear";
 	//char* tok1 = strtok(a , " ");

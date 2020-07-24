@@ -225,5 +225,11 @@
     <ClCompile Include="bak_9375.cpp">
       <Filter>소스 파일\cote-study</Filter>
     </ClCompile>
+    <ClCompile Include="bak_2526.cpp">
+      <Filter>소스 파일\cote-study</Filter>
+    </ClCompile>
+    <ClCompile Include="bak_3474.cpp">
+      <Filter>소스 파일\cote-study</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
