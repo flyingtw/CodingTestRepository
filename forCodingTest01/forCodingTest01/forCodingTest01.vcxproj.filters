@@ -243,5 +243,26 @@
     <ClCompile Include="bak_11655.cpp">
       <Filter>소스 파일\cote-study</Filter>
     </ClCompile>
+    <ClCompile Include="bak_2178.cpp">
+      <Filter>소스 파일\cote-study</Filter>
+    </ClCompile>
+    <ClCompile Include="bak_2583.cpp">
+      <Filter>소스 파일\cote-study</Filter>
+    </ClCompile>
+    <ClCompile Include="bak_2828.cpp">
+      <Filter>소스 파일\cote-study</Filter>
+    </ClCompile>
+    <ClCompile Include="bak_2910.cpp">
+      <Filter>소스 파일\cote-study</Filter>
+    </ClCompile>
+    <ClCompile Include="bak_4659cpp.cpp">
+      <Filter>소스 파일\cote-study</Filter>
+    </ClCompile>
+    <ClCompile Include="bak_1343.cpp">
+      <Filter>소스 파일\cote-study</Filter>
+    </ClCompile>
+    <ClCompile Include="bak_2628.cpp">
+      <Filter>소스 파일\cote-study</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
