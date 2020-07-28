@@ -7,6 +7,8 @@ using namespace std;
 
 int tc, n;
 string s1 = "";
+vector<string>small;
+vector<int>big;
 
 
 void init() {
@@ -39,6 +41,7 @@ int main() {
 			seperate(s1);
 			cout << "------" << endl;
 		}
+
 	}
 	//char a[] = "sunglasses eyewear";
 	//char* tok1 = strtok(a , " ");
