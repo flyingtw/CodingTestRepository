@@ -49,6 +49,12 @@
     <Filter Include="소스 파일\cote-study">
       <UniqueIdentifier>{be190c40-ed23-49a4-841f-2f2f0cdebd13}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\cote-study\01">
+      <UniqueIdentifier>{0855e753-a99d-4c85-98a6-30e1b0a55a84}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\cote-study\02">
+      <UniqueIdentifier>{181a3a5a-0e4d-4bf7-98c0-df07d1f4a863}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="19_candidate.cpp">
@@ -204,65 +210,74 @@
     <ClCompile Include="1436((영화감독숌).cpp">
       <Filter>소스 파일\bakjun\브루트포스</Filter>
     </ClCompile>
-    <ClCompile Include="bak_2309.cpp">
-      <Filter>소스 파일\cote-study</Filter>
-    </ClCompile>
     <ClCompile Include="bak_14502.cpp">
-      <Filter>소스 파일\cote-study</Filter>
-    </ClCompile>
-    <ClCompile Include="bak_10808.cpp">
-      <Filter>소스 파일\cote-study</Filter>
-    </ClCompile>
-    <ClCompile Include="bak_2979.cpp">
-      <Filter>소스 파일\cote-study</Filter>
-    </ClCompile>
-    <ClCompile Include="bak_1620.cpp">
-      <Filter>소스 파일\cote-study</Filter>
-    </ClCompile>
-    <ClCompile Include="bak_10988.cpp">
-      <Filter>소스 파일\cote-study</Filter>
-    </ClCompile>
-    <ClCompile Include="bak_9375.cpp">
-      <Filter>소스 파일\cote-study</Filter>
-    </ClCompile>
-    <ClCompile Include="bak_2526.cpp">
-      <Filter>소스 파일\cote-study</Filter>
-    </ClCompile>
-    <ClCompile Include="bak_3474.cpp">
-      <Filter>소스 파일\cote-study</Filter>
-    </ClCompile>
-    <ClCompile Include="bak_7568.cpp">
-      <Filter>소스 파일\cote-study</Filter>
+      <Filter>소스 파일\cote-study\01</Filter>
     </ClCompile>
     <ClCompile Include="bak_1012.cpp">
-      <Filter>소스 파일\cote-study</Filter>
-    </ClCompile>
-    <ClCompile Include="bak_2468.cpp">
-      <Filter>소스 파일\cote-study</Filter>
-    </ClCompile>
-    <ClCompile Include="bak_11655.cpp">
-      <Filter>소스 파일\cote-study</Filter>
-    </ClCompile>
-    <ClCompile Include="bak_2178.cpp">
-      <Filter>소스 파일\cote-study</Filter>
-    </ClCompile>
-    <ClCompile Include="bak_2583.cpp">
-      <Filter>소스 파일\cote-study</Filter>
-    </ClCompile>
-    <ClCompile Include="bak_2828.cpp">
-      <Filter>소스 파일\cote-study</Filter>
-    </ClCompile>
-    <ClCompile Include="bak_2910.cpp">
-      <Filter>소스 파일\cote-study</Filter>
-    </ClCompile>
-    <ClCompile Include="bak_4659cpp.cpp">
-      <Filter>소스 파일\cote-study</Filter>
+      <Filter>소스 파일\cote-study\01</Filter>
     </ClCompile>
     <ClCompile Include="bak_1343.cpp">
-      <Filter>소스 파일\cote-study</Filter>
+      <Filter>소스 파일\cote-study\01</Filter>
+    </ClCompile>
+    <ClCompile Include="bak_1620.cpp">
+      <Filter>소스 파일\cote-study\01</Filter>
+    </ClCompile>
+    <ClCompile Include="bak_2178.cpp">
+      <Filter>소스 파일\cote-study\01</Filter>
+    </ClCompile>
+    <ClCompile Include="bak_2309.cpp">
+      <Filter>소스 파일\cote-study\01</Filter>
+    </ClCompile>
+    <ClCompile Include="bak_2468.cpp">
+      <Filter>소스 파일\cote-study\01</Filter>
+    </ClCompile>
+    <ClCompile Include="bak_2526.cpp">
+      <Filter>소스 파일\cote-study\01</Filter>
+    </ClCompile>
+    <ClCompile Include="bak_2583.cpp">
+      <Filter>소스 파일\cote-study\01</Filter>
     </ClCompile>
     <ClCompile Include="bak_2628.cpp">
-      <Filter>소스 파일\cote-study</Filter>
+      <Filter>소스 파일\cote-study\01</Filter>
+    </ClCompile>
+    <ClCompile Include="bak_2828.cpp">
+      <Filter>소스 파일\cote-study\01</Filter>
+    </ClCompile>
+    <ClCompile Include="bak_2910.cpp">
+      <Filter>소스 파일\cote-study\01</Filter>
+    </ClCompile>
+    <ClCompile Include="bak_2979.cpp">
+      <Filter>소스 파일\cote-study\01</Filter>
+    </ClCompile>
+    <ClCompile Include="bak_3474.cpp">
+      <Filter>소스 파일\cote-study\01</Filter>
+    </ClCompile>
+    <ClCompile Include="bak_4659cpp.cpp">
+      <Filter>소스 파일\cote-study\01</Filter>
+    </ClCompile>
+    <ClCompile Include="bak_7568.cpp">
+      <Filter>소스 파일\cote-study\01</Filter>
+    </ClCompile>
+    <ClCompile Include="bak_9375.cpp">
+      <Filter>소스 파일\cote-study\01</Filter>
+    </ClCompile>
+    <ClCompile Include="bak_10808.cpp">
+      <Filter>소스 파일\cote-study\01</Filter>
+    </ClCompile>
+    <ClCompile Include="bak_10988.cpp">
+      <Filter>소스 파일\cote-study\01</Filter>
+    </ClCompile>
+    <ClCompile Include="bak_11655.cpp">
+      <Filter>소스 파일\cote-study\01</Filter>
+    </ClCompile>
+    <ClCompile Include="bak_15654.cpp">
+      <Filter>소스 파일\cote-study\02</Filter>
+    </ClCompile>
+    <ClCompile Include="bak_1926.cpp">
+      <Filter>소스 파일\cote-study\02</Filter>
+    </ClCompile>
+    <ClCompile Include="bak_2636.cpp">
+      <Filter>소스 파일\cote-study\02</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
