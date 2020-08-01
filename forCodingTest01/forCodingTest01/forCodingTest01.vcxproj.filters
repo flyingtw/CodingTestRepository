@@ -55,6 +55,9 @@
     <Filter Include="소스 파일\cote-study\02">
       <UniqueIdentifier>{181a3a5a-0e4d-4bf7-98c0-df07d1f4a863}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\2020_toss_server">
+      <UniqueIdentifier>{39188337-6b16-430b-8e2d-59dceeb234e6}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="19_candidate.cpp">
@@ -290,6 +293,27 @@
     </ClCompile>
     <ClCompile Include="bak_1189.cpp">
       <Filter>소스 파일\cote-study\02</Filter>
+    </ClCompile>
+    <ClCompile Include="toss_01.cpp">
+      <Filter>소스 파일\2020_toss_server</Filter>
+    </ClCompile>
+    <ClCompile Include="toss_02.cpp">
+      <Filter>소스 파일\2020_toss_server</Filter>
+    </ClCompile>
+    <ClCompile Include="toss_03.cpp">
+      <Filter>소스 파일\2020_toss_server</Filter>
+    </ClCompile>
+    <ClCompile Include="toss_04.cpp">
+      <Filter>소스 파일\2020_toss_server</Filter>
+    </ClCompile>
+    <ClCompile Include="toss_05.cpp">
+      <Filter>소스 파일\2020_toss_server</Filter>
+    </ClCompile>
+    <ClCompile Include="toss_06.cpp">
+      <Filter>소스 파일\2020_toss_server</Filter>
+    </ClCompile>
+    <ClCompile Include="toss_07.cpp">
+      <Filter>소스 파일\2020_toss_server</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
