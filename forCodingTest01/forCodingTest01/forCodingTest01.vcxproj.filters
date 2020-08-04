@@ -315,5 +315,38 @@
     <ClCompile Include="toss_07.cpp">
       <Filter>소스 파일\2020_toss_server</Filter>
     </ClCompile>
+    <ClCompile Include="bak_1676.cpp">
+      <Filter>소스 파일\cote-study\02</Filter>
+    </ClCompile>
+    <ClCompile Include="base.cpp">
+      <Filter>소스 파일\cote-study</Filter>
+    </ClCompile>
+    <ClCompile Include="bak_7569.cpp">
+      <Filter>소스 파일\cote-study\02</Filter>
+    </ClCompile>
+    <ClCompile Include="bak_1940.cpp">
+      <Filter>소스 파일\cote-study\02</Filter>
+    </ClCompile>
+    <ClCompile Include="bak_1436.cpp">
+      <Filter>소스 파일\cote-study\02</Filter>
+    </ClCompile>
+    <ClCompile Include="bak_2852.cpp">
+      <Filter>소스 파일\cote-study\02</Filter>
+    </ClCompile>
+    <ClCompile Include="bak_1987.cpp">
+      <Filter>소스 파일\cote-study\02</Filter>
+    </ClCompile>
+    <ClCompile Include="bak_2589.cpp">
+      <Filter>소스 파일\cote-study\02</Filter>
+    </ClCompile>
+    <ClCompile Include="bak_14497.cpp">
+      <Filter>소스 파일\cote-study\02</Filter>
+    </ClCompile>
+    <ClCompile Include="bak_4179.cpp">
+      <Filter>소스 파일\cote-study\02</Filter>
+    </ClCompile>
+    <ClCompile Include="bak_16234.cpp">
+      <Filter>소스 파일\cote-study\02</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

@@ -1,10 +1,6 @@
-
 #include <bits/stdc++.h>
+#define endl "\n"
 using namespace std;
-
-
-
-
 
 
 void init() {
@@ -12,8 +8,9 @@ void init() {
 	cout.tie(NULL);
 	ios::sync_with_stdio(false);
 }
-int main() {
 
+int main() {
+	init();
 
 	return 0;
 }

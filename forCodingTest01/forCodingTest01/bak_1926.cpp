@@ -1,5 +1,7 @@
 #include <bits/stdc++.h>
+#define endl "\n"
 using namespace std;
+
 
 int N, M;
 int arr[501][501];
@@ -24,7 +26,7 @@ int dfs(int x, int y,int num) {
 		if (arr[nx][ny] == 1 && visited[nx][ny] == false) {
 			
 			
-			n_num=dfs(nx, ny,num+1);
+			n_num=dfs(nx, ny, n_num +1);
 			
 		}
 	}
@@ -33,6 +35,11 @@ int dfs(int x, int y,int num) {
 
 
 int main() {
+	cin.tie(NULL);
+	cout.tie(NULL);
+	ios::sync_with_stdio(false);
+
+
 	cin >> N >> M;
 	for (int i = 0; i < N; i++) {
 		for (int j = 0; j < M; j++) {
