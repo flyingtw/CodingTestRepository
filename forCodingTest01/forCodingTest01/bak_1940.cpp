@@ -13,7 +13,7 @@ void init() {
 	cout.tie(NULL);
 	ios::sync_with_stdio(false);
 }
-
+// 2 포인터로 풀수도 있다.
 void combi(int here) {
 	if ((int)v3.size() == 2) {
 		int n=0;

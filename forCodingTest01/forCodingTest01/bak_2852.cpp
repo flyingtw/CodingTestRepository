@@ -33,9 +33,6 @@ void timecal(int team,int old_h, int old_m,int new_h,int new_m) {
 	v[team].first += n_h;
 	v[team].second += n_m;
 
-	
-	
-	
 }
 
 int main() {

@@ -5,6 +5,7 @@ using namespace std;
 int N, M;
 char arr[21][21];
 bool visited[26];
+int bit_visited = 0;
 int dx[4] = { 0,0,-1,1 };
 int dy[4] = { -1,1,0,0 };
 //vector<char>v;
@@ -23,11 +24,18 @@ void dfs(int y, int x,int cnt) {
 	for (int i = 0; i < 4; i++) {
 		int ny = y + dy[i], nx = x + dx[i];
 		if (ny < 0 || nx < 0 || ny >= N || nx >= M) continue;
-		if (!visited[arr[ny][nx]-'A']) {
-			//cout << "¾ËÆÄºª :" << arr[ny][nx] << endl;
-			visited[arr[ny][nx] - 'A'] = true;
+
+		//if (!visited[arr[ny][nx]-'A']) {
+			/*visited[arr[ny][nx] - 'A'] = true;
 			dfs(ny, nx,cnt+1);
-			visited[arr[ny][nx] - 'A'] = false;
+			visited[arr[ny][nx] - 'A'] = false;*/
+		
+			
+		// ºñÆ®¸¶½ºÅ· ±â¹ýÀ¸·Î Ç¬°Í.
+		if(!(bit_visited & (1 << (arr[ny][nx] - 'A')))) {
+			bit_visited = bit_visited | (1 << (arr[ny][nx] - 'A'));
+			dfs(ny, nx, cnt + 1);
+			bit_visited = bit_visited ^ (1 << (arr[ny][nx] - 'A'));
 		}
 	}
 }
@@ -41,8 +49,22 @@ int main() {
 			arr[i][j] = c;
 		}
 	}
-	visited[arr[0][0] - 'A'] = true;
+	bit_visited =bit_visited | (1 << (arr[0][0] - 'A'));
+	//visited[arr[0][0] - 'A'] = true;
 	dfs(0, 0,1);
 	cout << answer;
 	return 0;
+	/*int a = 11;
+
+	if (a & 1 == 1) {
+		cout << "È¦¼ö" << endl;
+	}
+	else {
+		cout << "Â¦¼ö" << endl;
+	}*/
+	/*int a = 100;
+	cout << (a | ('C' - 'A')) << endl;
+	cout << (a ^ ('C' - 'A')) << endl;
+	cout << (a & ('C' - 'A')) << endl;*/
+
 }

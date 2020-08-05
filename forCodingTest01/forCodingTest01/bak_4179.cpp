@@ -2,6 +2,8 @@
 #define endl "\n"
 using namespace std;
 
+
+// 지훈이가 먼저 퍼지고 불이 퍼진다
 int N, M;
 char arr[1001][1001];
 bool fire = false;
