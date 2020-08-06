@@ -1,54 +1,63 @@
-#define _CRT_SECURE_NO_WARNINGS 
-
 #include<bits/stdc++.h>
 #define endl "\n"
 
 using namespace std;
-
-int tc, n;
-string s1 = "";
-vector<string>small;
-vector<int>big;
+void init();
 
 
-void init() {
-	cin.tie(NULL);
-	cout.tie(NULL);
-	ios::sync_with_stdio(false);
-}
+int tc;
+map<string, int>m;
+vector<pair<string, int>>v;
 
-void seperate(string s) {
-	char str_buff[100];
-	strcpy(str_buff, s.c_str());//string 문자열을 char 문자열로 바꿔줌
-
-	char* tok1 = strtok(str_buff, " ");
-	while (tok1 != NULL) {
-		cout << tok1 << endl;
-		tok1 = strtok(NULL, " ");
-	}//토큰으로 잘라서 공백 단위로  구분
-}
 
 int main() {
 	init();
 	cin >> tc;
 	for (int i = 0; i < tc; i++) {
-		cout << "i :" << i << endl;
-		cin >> n;
-		cin.ignore();
-		for (int j = 0; j < n; j++) {
-			cout << "j :" << j << endl;
-			getline(cin, s1);
-			seperate(s1);
-			cout << "------" << endl;
+		int a; cin >> a;
+		int ret = 1;
+		v.clear();
+		for (int j = 0; j < a; j++) {
+			
+			bool flag = false;
+			
+			string s1, s2;
+			int num = 1;
+			cin >> s1 >> s2;
+			int n = (int)v.size();
+			for (int a = 0; a < n; a++) {
+				if (v[a].first == s2) {
+					flag = true;
+					break;
+				}
+			}
+			if (flag == false) {// 없으면 vector에 추가
+				v.push_back({ s2,1 });
+			}
+			else {// 있으면 
+				int imsi = 0;
+				for (int b = 0; b < v.size(); b++) {
+					if (v[b].first == s2) {
+						imsi = b;
+					}
+				}
+				v[imsi].second++;
+			}
+			
 		}
-
+		for (int c = 0; c<v.size(); c++) {
+			int aa = v[c].second + 1;
+			ret = ret * aa;
+		}
+		cout << ret - 1 << endl;
 	}
-	//char a[] = "sunglasses eyewear";
-	//char* tok1 = strtok(a , " ");
-	//while (tok1 != NULL) {
-	//	cout << tok1 << endl;
-	//	tok1 = strtok(NULL, " ");
-	//}
+	
+
 
 	return 0;
+}
+void init() {
+	cin.tie(NULL);
+	cout.tie(NULL);
+	ios::sync_with_stdio(false);
 }

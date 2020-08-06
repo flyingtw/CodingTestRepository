@@ -58,6 +58,9 @@
     <Filter Include="소스 파일\2020_toss_server">
       <UniqueIdentifier>{39188337-6b16-430b-8e2d-59dceeb234e6}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\cote-study\03">
+      <UniqueIdentifier>{38810340-7241-4e0b-95a5-8cc2b6b64060}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="19_candidate.cpp">
