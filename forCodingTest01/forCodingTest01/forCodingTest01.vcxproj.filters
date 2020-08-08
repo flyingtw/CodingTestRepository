@@ -357,5 +357,14 @@
     <ClCompile Include="bak_15686.cpp">
       <Filter>소스 파일\cote-study\02</Filter>
     </ClCompile>
+    <ClCompile Include="bak_14620.cpp">
+      <Filter>소스 파일\cote-study\03</Filter>
+    </ClCompile>
+    <ClCompile Include="bak_1213.cpp">
+      <Filter>소스 파일\cote-study\03</Filter>
+    </ClCompile>
+    <ClCompile Include="bak_4949.cpp">
+      <Filter>소스 파일\cote-study\03</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
