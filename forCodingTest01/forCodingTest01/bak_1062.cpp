@@ -3,6 +3,8 @@
 using namespace std;
 void init();
 
+void print();
+
 int N, K;
 vector<string>v;
 bool arr[30];
@@ -15,7 +17,7 @@ int ret = 0;
 void check() {
 	int num = 0;
 	for (int i = 0; i < N; i++) {
-		for (int j = 0; j < (int)v[i].size(); j++) {
+		for (int j = 4; j < (int)v[i].size(); j++) {
 			if (alpha[v[i][j]-'a'] == false) {
 				break;
 			}
@@ -23,7 +25,7 @@ void check() {
 				if (j == (int)v[i].size() - 1) {
 					num++;
 				}
-				continue;
+				
 			}
 			
 		}
@@ -31,16 +33,19 @@ void check() {
 	ret = max(ret, num);
 }
 
-void set_alphabet(int n) {
+void set_alphabet(int n, int index) {
 	if (n == learn) {
 		check();
+		//print();
 		return;
 	}
-	for (int i = 0; i < 26; i++) {
-		if (alpha[i] == false) {
-			alpha[i] = true;
-			set_alphabet(n + 1);
-			alpha[i] = false;
+	else {
+		for (int i = index; i < 26; i++) {
+			if (alpha[i] == false) {
+				alpha[i] = true;
+				set_alphabet(n + 1, i + 1);
+				alpha[i] = false;
+			}
 		}
 	}
 	
@@ -60,14 +65,17 @@ int main() {
 	// 1. M이 <5 이다. -> 아예 못배움 return 0;
 	// 2. M이 5  이다. -> 그냥 체크
 	// 3. M이 >5 이다. -> 나머지 true로 체크
-	if (K < 5)return 0;
+	if (K < 5) {
+		cout << "0";
+		return 0;
+	}
 	learn = K - 5;//6이면 1개남음
 
 	// antic 5개 true 처리
 	for (int i = 0; i < 5; i++) {
 		alpha[antic[i] - 'a'] = true;
 	}
-	set_alphabet(0);
+	set_alphabet(0,0);
 
 	cout << ret;
 	return 0;
