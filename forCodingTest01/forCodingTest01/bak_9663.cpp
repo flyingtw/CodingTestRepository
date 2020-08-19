@@ -3,8 +3,12 @@
 using namespace std;
 void init();
 
+int N;
+
 int main() {
 	init();
+	cin >> N;
+
 
 	return 0;
 }
