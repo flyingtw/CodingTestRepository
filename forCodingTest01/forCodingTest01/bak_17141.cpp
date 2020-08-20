@@ -12,24 +12,30 @@ int visited[51][51];
 
 
 void virus() {
-	memset(visited, 0, sizeof(visited));
+	//memset(visited, 0, sizeof(visited));
 	
-	queue<pair<int, int>>q;
+	//queue<pair<int, int>>q;
+	print(); 
+	cout << endl;
+	cout << "------------------" << endl;
 	
-	q.push({})
 }
 
-void plant(int n) {
+void plant(int n, int idx) {
 	if (n == M) {
 		virus();
 		return;
 	}
-	for (int i = 0; i < N; i++) {
-		for (int j = 0; j < N; j++) {
+	for (int i = idx / N; i < N; i++) {
+		for (int j = idx % N; j < N; j++) {
+			idx++;
 			if (arr[i][j] == '2') {
-				arr[i][j] = 2;
-				plant(n + 1);
 				arr[i][j] = 0;
+				tmp_arr[i][j] = 1;
+				cout << "i :" << i << " " << "j :" << j << endl;
+				plant(n + 1, idx);
+				tmp_arr[i][j] = 0;
+				arr[i][j] = '2';
 			}
 		}
 	}
@@ -38,7 +44,7 @@ void plant(int n) {
 
 int main() {
 	init();
-	cin >> N;
+	cin >> N>>M;
 	for (int i = 0; i < N; i++) {
 		for (int j = 0; j < N; j++) {
 			cin >> arr[i][j];
@@ -61,7 +67,7 @@ void print() {
 	for (int i = 0; i < N; i++) {
 		cout << endl;
 		for (int j = 0; j < N; j++) {
-			cout << visited[i][j] << " ";
+			cout << tmp_arr[i][j] << " ";
 		}
 	}
 }

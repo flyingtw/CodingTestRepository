@@ -417,5 +417,8 @@
     <ClCompile Include="bak_3967.cpp">
       <Filter>소스 파일\cote-study\04</Filter>
     </ClCompile>
+    <ClCompile Include="bak_16954.cpp">
+      <Filter>소스 파일\cote-study\04</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
