@@ -64,6 +64,12 @@
     <Filter Include="소스 파일\cote-study\04">
       <UniqueIdentifier>{e7b2db0f-6b2f-4869-ae73-c0298d12490c}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\cote-study\05">
+      <UniqueIdentifier>{eb324e47-7adf-4455-966d-2ef4476a3604}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\2020_ebay">
+      <UniqueIdentifier>{50252d68-2290-49c9-9f6f-752856aa982c}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="19_candidate.cpp">
@@ -428,6 +434,48 @@
     </ClCompile>
     <ClCompile Include="bak_16929.cpp">
       <Filter>소스 파일\cote-study\04</Filter>
+    </ClCompile>
+    <ClCompile Include="bak_1057.cpp">
+      <Filter>소스 파일\cote-study\05</Filter>
+    </ClCompile>
+    <ClCompile Include="bak_14889.cpp">
+      <Filter>소스 파일\cote-study\05</Filter>
+    </ClCompile>
+    <ClCompile Include="bak_17142.cpp">
+      <Filter>소스 파일\cote-study\05</Filter>
+    </ClCompile>
+    <ClCompile Include="bak_14888.cpp">
+      <Filter>소스 파일\cote-study\05</Filter>
+    </ClCompile>
+    <ClCompile Include="ebay_01.cpp">
+      <Filter>소스 파일\2020_ebay</Filter>
+    </ClCompile>
+    <ClCompile Include="ebay_02.cpp">
+      <Filter>소스 파일\2020_ebay</Filter>
+    </ClCompile>
+    <ClCompile Include="ebay_03.cpp">
+      <Filter>소스 파일\2020_ebay</Filter>
+    </ClCompile>
+    <ClCompile Include="ebay_04.cpp">
+      <Filter>소스 파일\2020_ebay</Filter>
+    </ClCompile>
+    <ClCompile Include="ebay_05.cpp">
+      <Filter>소스 파일\2020_ebay</Filter>
+    </ClCompile>
+    <ClCompile Include="bak_15683.cpp">
+      <Filter>소스 파일\cote-study\05</Filter>
+    </ClCompile>
+    <ClCompile Include="bak_17070.cpp">
+      <Filter>소스 파일\cote-study\05</Filter>
+    </ClCompile>
+    <ClCompile Include="bak_1911.cpp">
+      <Filter>소스 파일\cote-study\05</Filter>
+    </ClCompile>
+    <ClCompile Include="bak_17471.cpp">
+      <Filter>소스 파일\cote-study\05</Filter>
+    </ClCompile>
+    <ClCompile Include="experiment.cpp">
+      <Filter>소스 파일\cote-study</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
