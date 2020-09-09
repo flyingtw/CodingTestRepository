@@ -3,18 +3,25 @@
 using namespace std;
 void init();
 
-vector<int>v;
-priority_queue<int>pq;
+
+int N;
+
+priority_queue<int>min_pq;
+priority_queue<int>max_pq;
+
+void speak(int a) {
+	
+
+}
 
 int main() {
 	init();
+	cin >> N;
+	for (int i = 0; i < N; i++) {
+		int a; cin >> a;
+		speak(a);
+	}
 	
-	pq.push(1);
-	pq.push(-99);
-	pq.push(20);
-	pq.push(100);
-	pq.push(43);
-	cout << pq.top() << endl;
 	
 
 	return 0;

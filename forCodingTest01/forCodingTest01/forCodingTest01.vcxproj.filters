@@ -486,5 +486,20 @@
     <ClCompile Include="bak_17822.cpp">
       <Filter>소스 파일\cote-study\05</Filter>
     </ClCompile>
+    <ClCompile Include="bak_17837.cpp">
+      <Filter>소스 파일\cote-study\05</Filter>
+    </ClCompile>
+    <ClCompile Include="bak_1926(그림).cpp">
+      <Filter>소스 파일\bakjun\BFS</Filter>
+    </ClCompile>
+    <ClCompile Include="1655(가운데를 말해요).cpp">
+      <Filter>소스 파일\bakjun</Filter>
+    </ClCompile>
+    <ClCompile Include="1927(최소힙).cpp">
+      <Filter>소스 파일\bakjun</Filter>
+    </ClCompile>
+    <ClCompile Include="10773(제로).cpp">
+      <Filter>소스 파일\bakjun</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
