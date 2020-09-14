@@ -70,6 +70,12 @@
     <Filter Include="소스 파일\2020_ebay">
       <UniqueIdentifier>{50252d68-2290-49c9-9f6f-752856aa982c}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\2020_kakao_blind">
+      <UniqueIdentifier>{84a84929-eb4a-4e4b-b4fe-0be4c1875f0c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\2020_LINE">
+      <UniqueIdentifier>{deb507f5-d029-45d5-ab26-4e786275f5a0}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="19_candidate.cpp">
@@ -500,6 +506,36 @@
     </ClCompile>
     <ClCompile Include="10773(제로).cpp">
       <Filter>소스 파일\bakjun</Filter>
+    </ClCompile>
+    <ClCompile Include="kakao_01.cpp">
+      <Filter>소스 파일\2020_kakao_blind</Filter>
+    </ClCompile>
+    <ClCompile Include="kakao_02.cpp">
+      <Filter>소스 파일\2020_kakao_blind</Filter>
+    </ClCompile>
+    <ClCompile Include="kakao_03.cpp">
+      <Filter>소스 파일\2020_kakao_blind</Filter>
+    </ClCompile>
+    <ClCompile Include="kakao_04.cpp">
+      <Filter>소스 파일\2020_kakao_blind</Filter>
+    </ClCompile>
+    <ClCompile Include="line_01.cpp">
+      <Filter>소스 파일\2020_LINE</Filter>
+    </ClCompile>
+    <ClCompile Include="line_02.cpp">
+      <Filter>소스 파일\2020_LINE</Filter>
+    </ClCompile>
+    <ClCompile Include="line_03.cpp">
+      <Filter>소스 파일\2020_LINE</Filter>
+    </ClCompile>
+    <ClCompile Include="line_04.cpp">
+      <Filter>소스 파일\2020_LINE</Filter>
+    </ClCompile>
+    <ClCompile Include="line_05.cpp">
+      <Filter>소스 파일\2020_LINE</Filter>
+    </ClCompile>
+    <ClCompile Include="line_06.cpp">
+      <Filter>소스 파일\2020_LINE</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
