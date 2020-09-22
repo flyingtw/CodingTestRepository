@@ -76,6 +76,9 @@
     <Filter Include="소스 파일\2020_LINE">
       <UniqueIdentifier>{deb507f5-d029-45d5-ab26-4e786275f5a0}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\bakjun\구현">
+      <UniqueIdentifier>{75d7284c-0533-4d2d-aa96-eed375c766cd}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="19_candidate.cpp">
@@ -536,6 +539,12 @@
     </ClCompile>
     <ClCompile Include="line_06.cpp">
       <Filter>소스 파일\2020_LINE</Filter>
+    </ClCompile>
+    <ClCompile Include="bak_16235.cpp">
+      <Filter>소스 파일\cote-study\05</Filter>
+    </ClCompile>
+    <ClCompile Include="14503(로봇청소기).cpp">
+      <Filter>소스 파일\bakjun\구현</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

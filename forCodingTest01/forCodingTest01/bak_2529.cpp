@@ -17,6 +17,12 @@ void fc1() {
 }
 
 void dfs(int idx) {
+
+
+
+
+
+
 	if ((int)v.size() == n + 1) {
 		fc1();
 	}
