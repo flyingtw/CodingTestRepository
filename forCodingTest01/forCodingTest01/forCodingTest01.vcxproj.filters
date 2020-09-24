@@ -546,5 +546,8 @@
     <ClCompile Include="14503(로봇청소기).cpp">
       <Filter>소스 파일\bakjun\구현</Filter>
     </ClCompile>
+    <ClCompile Include="14500(테크로미노).cpp">
+      <Filter>소스 파일\bakjun\구현</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
