@@ -5,6 +5,7 @@ void init();
 
 int main() {
 	init();
+	cout << "hello" << endl;
 
 	return 0;
 }
