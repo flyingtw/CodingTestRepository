@@ -37,11 +37,9 @@ struct Tree {
 	int y;
 	int x;
 	int age;
-
 	bool operator <(Tree tr) {
 		return this->age < tr.age;
 	}
-
 };
 
 Tree trees[101];
@@ -122,8 +120,6 @@ void winter() {
 			arr[i][j] += robot[i][j];
 		}
 	}
-
-
 }
 
 //void print(int year) {
@@ -192,13 +188,6 @@ int main() {
 	/*for (int i = 0; i < v.size(); i++) {
 		cout << v[i].y << " " << v[i].x << " " << v[i].age << endl;
 	}*/
-	
-
-
-	
-
-	
-
 	return 0;
 }
 void init() {

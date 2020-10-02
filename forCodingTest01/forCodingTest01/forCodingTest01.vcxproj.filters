@@ -79,6 +79,9 @@
     <Filter Include="소스 파일\bakjun\구현">
       <UniqueIdentifier>{75d7284c-0533-4d2d-aa96-eed375c766cd}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\cote-study\06">
+      <UniqueIdentifier>{c6f41462-8837-4883-a998-9e06dab87753}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="19_candidate.cpp">
@@ -551,6 +554,24 @@
     </ClCompile>
     <ClCompile Include="bak_17143.cpp">
       <Filter>소스 파일\cote-study\04</Filter>
+    </ClCompile>
+    <ClCompile Include="bak_11047.cpp">
+      <Filter>소스 파일\cote-study\06</Filter>
+    </ClCompile>
+    <ClCompile Include="bak_4796.cpp">
+      <Filter>소스 파일\cote-study\06</Filter>
+    </ClCompile>
+    <ClCompile Include="bak_2422.cpp">
+      <Filter>소스 파일\cote-study\06</Filter>
+    </ClCompile>
+    <ClCompile Include="bak_2847.cpp">
+      <Filter>소스 파일\cote-study\06</Filter>
+    </ClCompile>
+    <ClCompile Include="bak_18808.cpp">
+      <Filter>소스 파일\cote-study\06</Filter>
+    </ClCompile>
+    <ClCompile Include="bak_1600.cpp">
+      <Filter>소스 파일\cote-study\06</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
