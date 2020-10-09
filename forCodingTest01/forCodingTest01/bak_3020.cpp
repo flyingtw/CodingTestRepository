@@ -36,6 +36,7 @@ int main() {
 		ret += lower_bound(vb.begin(), vb.end(), H-i-1) - vb.begin();
 		cout << ret << endl;
 	}
+	
 
 	return 0;
 }

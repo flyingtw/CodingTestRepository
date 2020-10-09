@@ -3,18 +3,14 @@
 using namespace std;
 void init();
 
-vector<int>v;
-priority_queue<int>pq;
+
+
+int arr[500001];
 
 int main() {
 	init();
-	
-	pq.push(1);
-	pq.push(-99);
-	pq.push(20);
-	pq.push(100);
-	pq.push(43);
-	cout << pq.top() << endl;
+	vector < pair<pair<int, int>,int>>v;
+
 	
 
 	return 0;
