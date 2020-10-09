@@ -46,7 +46,7 @@ void bfs() {
 				int nx = cur_x + hx[i];
 				if (ny < 0 || nx < 0 || ny >= N || nx >= M)continue;
 				if (arr[ny][nx] == 0 && visited[ny][nx][cur_cnt + 1] == false) {
-					q.push({ cur_y,cur_x,cur_cnt + 1,cur_time + 1 });
+					q.push({ ny,nx,cur_cnt + 1,cur_time + 1 });
 					visited[ny][nx][cur_cnt + 1] = true;
 				}
 			}
