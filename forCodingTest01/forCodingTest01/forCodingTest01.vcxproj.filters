@@ -597,5 +597,8 @@
     <ClCompile Include="bak_11559(뿌요뿌요).cpp">
       <Filter>소스 파일\cote-study\08-re</Filter>
     </ClCompile>
+    <ClCompile Include="bak_3197(백조의호수).cpp">
+      <Filter>소스 파일\cote-study\08-re</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
