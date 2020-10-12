@@ -85,6 +85,9 @@
     <Filter Include="소스 파일\cote-study\07">
       <UniqueIdentifier>{f7acd756-b741-42b2-a6ec-42ba8f393657}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\cote-study\08-re">
+      <UniqueIdentifier>{71b1f0f7-b1b3-43fc-aae8-776a67e7c1d6}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="19_candidate.cpp">
@@ -590,6 +593,9 @@
     </ClCompile>
     <ClCompile Include="bak_3020.cpp">
       <Filter>소스 파일\cote-study\07</Filter>
+    </ClCompile>
+    <ClCompile Include="bak_11559(뿌요뿌요).cpp">
+      <Filter>소스 파일\cote-study\08-re</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
