@@ -603,5 +603,14 @@
     <ClCompile Include="bak_16954(움직이는미로탈출).cpp">
       <Filter>소스 파일\cote-study\08-re</Filter>
     </ClCompile>
+    <ClCompile Include="bak_17071(숨바꼭질5).cpp">
+      <Filter>소스 파일\cote-study\08-re</Filter>
+    </ClCompile>
+    <ClCompile Include="bak_2206(벽부수고이동).cpp">
+      <Filter>소스 파일\cote-study\08-re</Filter>
+    </ClCompile>
+    <ClCompile Include="bak_17144(미세먼지안녕).cpp">
+      <Filter>소스 파일\cote-study\08-re</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

@@ -5,11 +5,13 @@ void init();
 
 
 
-int arr[500001];
+
 
 int main() {
 	init();
-	vector < pair<pair<int, int>,int>>v;
+	if (true && !false) {
+		cout << "d";
+	}
 
 	
 
