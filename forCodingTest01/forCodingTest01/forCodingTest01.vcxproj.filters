@@ -612,5 +612,11 @@
     <ClCompile Include="bak_17144(미세먼지안녕).cpp">
       <Filter>소스 파일\cote-study\08-re</Filter>
     </ClCompile>
+    <ClCompile Include="bak_12100(2048).cpp">
+      <Filter>소스 파일\cote-study\08-re</Filter>
+    </ClCompile>
+    <ClCompile Include="bak_2109(순회강연).cpp">
+      <Filter>소스 파일\cote-study\08-re</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

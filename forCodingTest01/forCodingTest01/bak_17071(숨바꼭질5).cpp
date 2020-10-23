@@ -4,7 +4,7 @@ using namespace std;
 void init();
 
 int N, K;
-bool visited[500001];
+bool visited[3][500001];
 
 int ret = 0;
 
@@ -14,12 +14,14 @@ int d2[3] = { 0,-1,1 };
 //아! +1, -1  보다 *2 한값이 더 빨리 찾아질수 있는데 그걸 고려해야함
 
 int bfs(int N) {
-	visited[N] = true;
+	int t = 0;
+	visited[t][N] = true;
 	queue<int>q;
 	q.push(N);
-	int t = 0;
+	
 	while (!q.empty()) {
 		int q_size = q.size();
+		t++;
 		while (q_size--) {
 			int cur = q.front();
 			q.pop();
@@ -29,15 +31,18 @@ int bfs(int N) {
 			for (int i = 0; i < 3; i++) {
 				int new_cur = cur * d1[i] + d2[i];
 				if (new_cur < 0 || new_cur>500000)continue;
-				if (visited[new_cur] == false) {
+				if (visited[t%2][new_cur] == false) {
+					visited[t%2][new_cur] = true;
 					q.push({ new_cur });
-					visited[new_cur] = true;
 				}
 			}
 		}
-		t++;
+		
 		K = K + t;
+		if (K > 500000)break;
+		if (visited[t % 2][K])return t;
 	}
+	return -1;
 }
 
 int main() {
@@ -49,7 +54,6 @@ int main() {
 		cout << 0;
 		exit(0);
 	}
-
 	ret=bfs(N);
 	cout<<ret;
 
